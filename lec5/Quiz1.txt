@@ -1,0 +1,276 @@
+x=linspace(-1,10)
+
+x =
+
+  Columns 1 through 8
+
+   -1.0000   -0.8889   -0.7778   -0.6667   -0.5556   -0.4444   -0.3333   -0.2222
+
+  Columns 9 through 16
+
+   -0.1111         0    0.1111    0.2222    0.3333    0.4444    0.5556    0.6667
+
+  Columns 17 through 24
+
+    0.7778    0.8889    1.0000    1.1111    1.2222    1.3333    1.4444    1.5556
+
+  Columns 25 through 32
+
+    1.6667    1.7778    1.8889    2.0000    2.1111    2.2222    2.3333    2.4444
+
+  Columns 33 through 40
+
+    2.5556    2.6667    2.7778    2.8889    3.0000    3.1111    3.2222    3.3333
+
+  Columns 41 through 48
+
+    3.4444    3.5556    3.6667    3.7778    3.8889    4.0000    4.1111    4.2222
+
+  Columns 49 through 56
+
+    4.3333    4.4444    4.5556    4.6667    4.7778    4.8889    5.0000    5.1111
+
+  Columns 57 through 64
+
+    5.2222    5.3333    5.4444    5.5556    5.6667    5.7778    5.8889    6.0000
+
+  Columns 65 through 72
+
+    6.1111    6.2222    6.3333    6.4444    6.5556    6.6667    6.7778    6.8889
+
+  Columns 73 through 80
+
+    7.0000    7.1111    7.2222    7.3333    7.4444    7.5556    7.6667    7.7778
+
+  Columns 81 through 88
+
+    7.8889    8.0000    8.1111    8.2222    8.3333    8.4444    8.5556    8.6667
+
+  Columns 89 through 96
+
+    8.7778    8.8889    9.0000    9.1111    9.2222    9.3333    9.4444    9.5556
+
+  Columns 97 through 100
+
+    9.6667    9.7778    9.8889   10.0000
+
+y=sin(2*t)-2*cos(2*t)
+{Unrecognized function or variable 't'.
+} 
+y=sin(2*x)-2*cos(2*x)
+
+y =
+
+  Columns 1 through 8
+
+   -0.0770   -0.5676   -1.0304   -1.4424   -1.7835   -2.0369   -2.1901   -2.2357
+
+  Columns 9 through 16
+
+   -2.1712   -2.0000   -1.7304   -1.3757   -0.9534   -0.4842    0.0089    0.5015
+
+  Columns 17 through 24
+
+    0.9694    1.3897    1.7416    2.0079    2.1754    2.2359    2.1865    2.0295
+
+  Columns 25 through 32
+
+    1.7728    1.4288    1.0146    0.5505    0.0593   -0.4348   -0.9075   -1.3356
+
+  Columns 33 through 40
+
+   -1.6980   -1.9769   -2.1586   -2.2341   -2.1998   -2.0572   -1.8135   -1.4806
+
+  Columns 41 through 48
+
+   -1.0749   -0.6163   -0.1274    0.3678    0.8448    1.2804    1.6529    1.9442
+
+  Columns 49 through 56
+
+    2.1398    2.2302    2.2110    2.0830    1.8525    1.5310    1.1341    0.6815
+
+  Columns 57 through 64
+
+    0.1954   -0.3004   -0.7813   -1.2239   -1.6062   -1.9096   -2.1191   -2.2243
+
+  Columns 65 through 72
+
+   -2.2201   -2.1068   -1.8898   -1.5799   -1.1923   -0.7461   -0.2632    0.2327
+
+  Columns 73 through 80
+
+    0.7171    1.1663    1.5581    1.8733    2.0963    2.2163    2.2272    2.1286
+
+  Columns 81 through 88
+
+    1.9254    1.6274    1.2494    0.8100    0.3307   -0.1648   -0.6523   -1.1076
+
+  Columns 89 through 96
+
+   -1.5085   -1.8352   -2.0716   -2.2062   -2.2322   -2.1485   -1.9591   -1.6734
+
+  Columns 97 through 100
+
+   -1.3054   -0.8731   -0.3980    0.0968
+
+plot(x,y)
+xlabel('x axes'),ylabel('y axes'),title('Quiz1 graph'), grid
+help legend
+  <strong>legend</strong> Create legend
+  
+  <strong>legend</strong> creates a legend with descriptive labels for each plotted data
+  series. For the labels, the legend uses the text from the DisplayName
+  properties of the data series. If the DisplayName property is empty, then
+  the legend uses a label of the form 'dataN'. The legend automatically
+  updates when you add or delete data series from the axes. This command
+  creates a legend for the current axes or chart returned by gca. If the
+  current axes is empty, then the legend is empty. If axes do not exist,
+  then this command creates one.
+ 
+  <strong>legend</strong>(label1,...,labelN) sets the labels. Specify the labels as a list
+  of character vectors, such as legend('Jan','Feb','Mar'). When you specify
+  a label as an empty character vector or an empty string, the
+  corresponding entry is omitted from the legend.
+ 
+  <strong>legend</strong>(labels) sets the labels using a cell array of character vectors or
+  a character matrix, such as legend({'Jan','Feb','Mar'}). When you specify
+  a label as an empty element in a cell array or string array, the
+  corresponding entry is omitted from the legend.
+ 
+  <strong>legend</strong>(subset,__) only includes items in the legend for the data series
+  listed in subset. Specify subset as a vector of graphics objects.
+ 
+  <strong>legend</strong>(target,__) uses the axes, polar axes, or chart specified by target
+  instead of the current axes or chart. Specify the target as the first
+  input argument. 
+ 
+  <strong>legend</strong>(__,'Location',lcn) sets the legend location. For example,
+  'Location','northeast' positions the legend in the upper right corner of
+  the axes. Specify the location after other input arguments.
+ 
+  <strong>legend</strong>(__,'Orientation',ornt), where ornt is 'horizontal', displays the
+  legend items side-by-side. The default for ornt is 'vertical', which
+  stacks the items vertically. 
+ 
+  <strong>legend</strong>(__,Name,Value) sets legend properties using one or more name-value
+  pair arguments. When setting properties, include the labels in a cell
+  array, such as legend({'A','B'},'FontSize',12). If you do not want to
+  specify labels, then include an empty cell array, such as
+  legend({},'FontSize',12). Reissuing the legend command retains
+  modifications that you previously specified.
+ 
+  <strong>legend</strong>(bkgd), where bkgd is 'boxoff', removes the legend background and
+  outline. The default for bkgd is 'boxon', which displays the legend
+  background and outline. 
+ 
+  lgd = <strong>legend</strong>(__) returns the Legend object. Use lgd to query and set
+  properties of the legend after it is created. For a list of properties,
+  see Legend. 
+ 
+  <strong>legend</strong>(vsbl) controls the visibility of the legend, where vsbl is 'hide',
+  'show', or 'toggle'. 
+ 
+  <strong>legend</strong>('off') deletes the legend.
+ 
+   
+      Examples:
+          x = 0:.2:12;
+          Y = [besselj(1,x); besselj(2,x); besselj(3,x)];
+          plot(x,Y);
+          legend('First','Second','Third','Location','NorthEastOutside')
+   
+          b = bar(rand(10,5),'stacked'); 
+          hold on
+          ln = plot(1:10,5*rand(10,1),'-o'); 
+          hold off
+          legend([b,ln],'Carrots','Peas','Peppers','Green Beans',...
+                    'Cucumbers','Eggplant')
+
+    <a href="matlab:doc legend">Documentation for legend</a>
+
+xlabel('x axes'),ylabel('y axes'),title('Quiz1 graph'), grid, legend
+plot(x,y)
+xlabel('x axes'),ylabel('y axes'),title('Quiz1 graph'), grid, legend
+clc, clear
+syms x
+eq=x^5-5*x^4+8*x^3-40*x^2+16*x-80==0
+ 
+eq =
+ 
+x^5 - 5*x^4 + 8*x^3 - 40*x^2 + 16*x - 80 == 0
+ 
+slove(eq)
+{Unrecognized function or variable 'slove'.
+} 
+solve(eq)
+ 
+ans =
+ 
+  5
+-2i
+-2i
+ 2i
+ 2i
+ 
+clc, clear
+syms x
+eq = x*(x*(x-6)+11)-6
+ 
+eq =
+ 
+x*(x*(x - 6) + 11) - 6
+ 
+help pretty
+--- help for <strong>sym/pretty</strong> ---
+
+ <strong>pretty</strong> Pretty print a symbolic expression.
+    pretty is not recommended. Use live scripts instead. 
+    Live scripts provide full math rendering while pretty uses plain-text formatting.
+ 
+    <strong>pretty</strong>(S) prints the symbolic expression S in a format that 
+    resembles type-set mathematics.
+ 
+    See also <a href="matlab:help sym/subexpr -displayBanner">sym/subexpr</a>, <a href="matlab:help sym/latex -displayBanner">sym/latex</a>, <a href="matlab:help sym/ccode -displayBanner">sym/ccode</a>.
+
+    <a href="matlab:doc sym/pretty">Documentation for sym/pretty</a>
+
+pretty(eq)
+x (x (x - 6) + 11) - 6
+
+clc, clear
+syms x y z a b c
+f1=4*x+8*y-12*z-a
+ 
+f1 =
+ 
+4*x - a + 8*y - 12*z
+ 
+f2=3*x+6*y-8*z-b
+ 
+f2 =
+ 
+3*x - b + 6*y - 8*z
+ 
+f3=-2*x-y-c
+ 
+f3 =
+ 
+- c - 2*x - y
+ 
+[x,y,z]=solve(f1,f2,f3)
+ 
+x =
+ 
+(2*a)/3 - b - (2*c)/3
+ 
+ 
+y =
+ 
+2*b - (4*a)/3 + c/3
+ 
+ 
+z =
+ 
+b - (3*a)/4
+ 
+diary off

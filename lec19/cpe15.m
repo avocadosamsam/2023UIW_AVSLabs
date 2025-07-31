@@ -1,0 +1,11 @@
+price_A=[19,18,22,21,25,19,17,21,27,29];
+price_B=[22,17,20,19,24,18,16,25,28,27];
+price_C=[17,13,22,23,19,17,20,21,24,28];
+%a
+day1=price_A((price_A>price_B)&(price_A>price_C))
+%b
+day2=price_A((price_A>price_B)|(price_A>price_C));
+numel(day2)
+%c
+day3=price_A(((price_A>price_B)&(price_A<price_C))|((price_A<price_B)&(price_A>price_C)));
+numel(day3)

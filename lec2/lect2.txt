@@ -1,0 +1,169 @@
+help diary
+ <strong>diary</strong> Save text of MATLAB session.
+    <strong>diary</strong> FILENAME causes a copy of all subsequent command window input
+    and most of the resulting command window output to be appended to the
+    named file.  If no file is specified, the file 'diary' is used.
+ 
+    <strong>diary</strong> OFF suspends it. 
+    <strong>diary</strong> ON turns it back on.
+    <strong>diary</strong>, by itself, toggles the diary state.
+ 
+    Use the functional form of <strong>diary</strong>, such as <strong>diary</strong>('file'),
+    when the file name is stored in a string.
+ 
+    See also <a href="matlab:help save -displayBanner">save</a>.
+
+    <a href="matlab:doc diary">Documentation for diary</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('diary')">Other uses of diary</a>
+
+logo
+ver
+-----------------------------------------------------------------------------------------------------
+MATLAB Version: 9.14.0.2337262 (R2023a) Update 5
+MATLAB License Number: 40918203
+Operating System: macOS  Version: 13.3.1 ProductVersionExtra:(a) Build: 22E772610a 
+Java Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode
+-----------------------------------------------------------------------------------------------------
+MATLAB                                                Version 9.14        (R2023a)
+Simulink                                              Version 10.7        (R2023a)
+Computer Vision Toolbox                               Version 10.4        (R2023a)
+Control System Toolbox                                Version 10.13       (R2023a)
+Curve Fitting Toolbox                                 Version 3.9         (R2023a)
+DSP HDL Toolbox                                       Version 1.2         (R2023a)
+DSP System Toolbox                                    Version 9.16        (R2023a)
+Database Toolbox                                      Version 11.0        (R2023a)
+Datafeed Toolbox                                      Version 6.4         (R2023a)
+Deep Learning Toolbox                                 Version 14.6        (R2023a)
+Filter Design HDL Coder                               Version 3.1.13      (R2023a)
+Fixed-Point Designer                                  Version 7.6         (R2023a)
+Fuzzy Logic Toolbox                                   Version 3.1         (R2023a)
+Global Optimization Toolbox                           Version 4.8.1       (R2023a)
+Image Acquisition Toolbox                             Version 6.7.1       (R2023a)
+Image Processing Toolbox                              Version 11.7        (R2023a)
+MATLAB Coder                                          Version 5.6         (R2023a)
+MATLAB Compiler                                       Version 8.6         (R2023a)
+MATLAB Compiler SDK                                   Version 7.2         (R2023a)
+MATLAB Report Generator                               Version 5.14        (R2023a)
+MATLAB Test                                           Version 1.0         (R2023a)
+Model Predictive Control Toolbox                      Version 8.1         (R2023a)
+Optimization Toolbox                                  Version 9.5         (R2023a)
+Parallel Computing Toolbox                            Version 7.8         (R2023a)
+Partial Differential Equation Toolbox                 Version 3.10        (R2023a)
+ROS Toolbox                                           Version 2.0         (R2023a)
+Reinforcement Learning Toolbox                        Version 2.4         (R2023a)
+Requirements Toolbox                                  Version 2.2         (R2023a)
+Robotics System Toolbox                               Version 4.2         (R2023a)
+Robust Control Toolbox                                Version 6.11.3      (R2023a)
+Sensor Fusion and Tracking Toolbox                    Version 2.5         (R2023a)
+Signal Processing Toolbox                             Version 9.2         (R2023a)
+Simulink Check                                        Version 6.2         (R2023a)
+Simulink Coder                                        Version 9.9         (R2023a)
+Simulink Compiler                                     Version 1.6         (R2023a)
+Simulink Control Design                               Version 7.0         (R2023a)
+Simulink Coverage                                     Version 5.6         (R2023a)
+Simulink Design Optimization                          Version 3.13        (R2023a)
+Simulink Design Verifier                              Version 4.9         (R2023a)
+Simulink Desktop Real-Time                            Version 5.16        (R2023a)
+Simulink PLC Coder                                    Version 3.8         (R2023a)
+Simulink Report Generator                             Version 5.14        (R2023a)
+Simulink Test                                         Version 3.8         (R2023a)
+Stateflow                                             Version 10.8        (R2023a)
+Statistics and Machine Learning Toolbox               Version 12.5        (R2023a)
+Symbolic Math Toolbox                                 Version 9.3         (R2023a)
+System Composer                                       Version 2.4         (R2023a)
+realmax
+
+ans =
+
+  1.7977e+308
+
+realmin
+
+ans =
+
+  2.2251e-308
+
+Why
+{Unrecognized function or variable 'Why'.
+} 
+why
+Because the not excessively bald and not excessively smart young kid wanted it that way.
+why
+Penny knew it was a good idea.
+penny
+bench
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.primitive.Text/set')" style="font-weight:bold">matlab.graphics.primitive.Text/set</a>
+Invalid or deleted object.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bench', '/Applications/MATLAB_R2023a.app/toolbox/matlab/general/bench.m', 92)" style="font-weight:bold">bench</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/matlab/general/bench.m',92,0)">line 92</a>)
+    set(task,'string',getString(message('MATLAB:bench:threeD')))
+} 
+bench
+
+ans =
+
+    3.0901    0.7604    0.3241    0.5496    1.4214    1.0005
+
+bench
+
+ans =
+
+    2.2666    0.6186    0.3036    0.5126    1.5400    1.0458
+
+diary off
+bench
+
+ans =
+
+    2.2205    0.7331    0.2952    0.5137    1.3914    0.8486
+
+x=5
+
+x =
+
+     5
+
+y=2;
+clc
+7/45
+
+ans =
+
+    0.1556
+
+(1+i)*(2+i)
+
+ans =
+
+   1.0000 + 3.0000i
+
+1/0
+
+ans =
+
+   Inf
+
+0/0
+
+ans =
+
+   NaN
+
+i
+
+ans =
+
+   0.0000 + 1.0000i
+
+0^0
+
+ans =
+
+     1
+
+3(1+0.7)
+ 3(1+0.7)
+  ↑
+{Invalid expression. When calling a function or indexing a variable, use parentheses.
+Otherwise, check for mismatched delimiters.
+} 

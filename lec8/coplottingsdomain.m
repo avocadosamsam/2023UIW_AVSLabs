@@ -1,0 +1,5 @@
+sys=tf([1],[1,4,3,0])
+subplot(2,1,1)
+step(sys)
+subplot(2,1,2)
+impulse(sys)

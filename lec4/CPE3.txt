@@ -1,0 +1,142 @@
+syms x
+eqn=sqrt(2*x-4)-1
+ 
+eqn =
+ 
+2^(1/2)*(x - 2)^(1/2) - 1
+ 
+slove(eqn)
+{Unrecognized function or variable 'slove'.
+} 
+solve(eqn)
+ 
+ans =
+ 
+5/2
+ 
+syms x y z a b c
+f1=x-3*y-2*z-a
+ 
+f1 =
+ 
+x - a - 3*y - 2*z
+ 
+f2=2*x-4*y-3*z-b
+ 
+f2 =
+ 
+2*x - b - 4*y - 3*z
+ 
+f3=-3*x+6*y+8*z-c
+ 
+f3 =
+ 
+6*y - 3*x - c + 8*z
+ 
+[x,y,z]=solve(f1,f2,f3)
+ 
+x =
+ 
+(12*b)/7 - 2*a + c/7
+ 
+ 
+y =
+ 
+(2*b)/7 - a - c/7
+ 
+ 
+z =
+ 
+(3*b)/7 + (2*c)/7
+ 
+clear, clc
+eqn=x^2+x-12==0
+{Unrecognized function or variable 'x'.
+} 
+syms x
+eqn=x^2+x-12==0
+ 
+eqn =
+ 
+x^2 + x - 12 == 0
+ 
+S=solve(eqn,x)
+ 
+S =
+ 
+-4
+ 3
+ 
+eqn2=sin
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sin')" style="font-weight:bold">sin</a>
+Not enough input arguments.
+} 
+eqn2=sin(x)+x==5
+ 
+eqn2 =
+ 
+x + sin(x) == 5
+ 
+Sa=solve(eqn,x)
+ 
+Sa =
+ 
+-4
+ 3
+ 
+Sa=solve(eqn2,x)
+[Warning: Unable to solve symbolically. Returning a numeric solution using
+<a href="matlab:web(fullfile(docroot, 'symbolic/vpasolve.html'))">vpasolve</a>.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('sym/solve', '/Applications/MATLAB_R2023a.app/toolbox/symbolic/symbolic/@sym/solve.m', 304)" style="font-weight:bold">sym/solve</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2023a.app/toolbox/symbolic/symbolic/@sym/solve.m',304,0)">line 304</a>)] 
+ 
+Sa =
+ 
+5.6175550052726989176213921571114
+ 
+clear, clc
+syms x a
+eqn=5*x+4*x+7==x+15
+ 
+eqn =
+ 
+9*x + 7 == x + 15
+ 
+simplify(eqn)
+ 
+ans =
+ 
+x == 1
+ 
+eqn2=(2*(a^(3/2)))*(4*(a^(1/2)))
+ 
+eqn2 =
+ 
+8*a^2
+ 
+clear
+syms x
+S=6*x^2+13*x+6
+ 
+S =
+ 
+6*x^2 + 13*x + 6
+ 
+factor(S)
+ 
+ans =
+ 
+[2*x + 3, 3*x + 2]
+ 
+f=(x+2)*(x+3)
+ 
+f =
+ 
+(x + 2)*(x + 3)
+ 
+expand(f)
+ 
+ans =
+ 
+x^2 + 5*x + 6
+ 
+diary off

@@ -1,0 +1,57 @@
+x=linspace(0,2*pi,30)
+
+x =
+
+  Columns 1 through 9
+
+         0    0.2167    0.4333    0.6500    0.8666    1.0833    1.3000    1.5166    1.7333
+
+  Columns 10 through 18
+
+    1.9500    2.1666    2.3833    2.5999    2.8166    3.0333    3.2499    3.4666    3.6832
+
+  Columns 19 through 27
+
+    3.8999    4.1166    4.3332    4.5499    4.7666    4.9832    5.1999    5.4165    5.6332
+
+  Columns 28 through 30
+
+    5.8499    6.0665    6.2832
+
+y=sin(x)
+
+y =
+
+  Columns 1 through 9
+
+         0    0.2150    0.4199    0.6052    0.7622    0.8835    0.9635    0.9985    0.9868
+
+  Columns 10 through 18
+
+    0.9290    0.8277    0.6877    0.5156    0.3193    0.1081   -0.1081   -0.3193   -0.5156
+
+  Columns 19 through 27
+
+   -0.6877   -0.8277   -0.9290   -0.9868   -0.9985   -0.9635   -0.8835   -0.7622   -0.6052
+
+  Columns 28 through 30
+
+   -0.4199   -0.2150   -0.0000
+
+plot(x,y)
+plot(x,y,'.')
+plot(x,y,'ro')
+plot(x,y,'g-')
+plot(x,y,'b:')
+plot(x,y,'k--')
+plot(x,y,'r*-')
+plot(x,y,'r+','markersize',16)
+plot(x,y,'r--',linewidth',5)
+{Unrecognized function or variable 'linewidth'.
+} 
+plot(x,y,'r--','linewidth',5)
+hold on
+plot(x,y,'bx','markersize',14)
+hold off
+close
+diary off
